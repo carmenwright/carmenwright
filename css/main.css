@@ -212,6 +212,7 @@ nav ul {
 .about-info {
     width: 90%;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*CASE STUDIES************/
@@ -230,25 +231,30 @@ nav ul {
     background-repeat: no-repeat;
     background-position: center;
     float: left;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
+    padding-left: 20px;
 }
 
 .jubilee-site {
     width: 100%;
+    padding-bottom: 15px;
 }
 
 .rogue-pickings-site {
     width: 100%;
+    padding-bottom: 15px;
 }
 
 .unplugged-site {
     width: 100%;
+    padding-bottom: 15px;
 }
 
 .case-studies-info {
     width: 90%;
     padding-bottom: 50px;
+    padding-left: 20px;
 }
 
 /*SERVICES****************/
@@ -257,15 +263,27 @@ nav ul {
     width: 100%;
 }
 
+.user-box, .html-box, .css-box {
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
 .services i {
+    width: 100%;
+    text-align: center;
+    flex-flow: wrap;
     font-size: 2.5em;
     color: #398dc1;
+    text-align: inherit;
+    padding-left: 175px;
 }
 
 .user-info, .html-info, .css-info {
-    align-items: left;
-    width: 90%;
-    padding-bottom: 50px
+    text-align: left;
+    flex-flow: row wrap;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -401,7 +419,7 @@ nav ul {
         }
     
         nav {
-            padding-top: 400px;
+            padding-top: 375px;
             text-align: center;
         }
     
@@ -474,25 +492,38 @@ nav ul {
         .case-studies-info {
             align-content: space-between;
             text-align: left;
-            margin-right: 20px;
+            margin-right: 30px;
             margin-top: 100px;
         }
     
-    .services {
-        
+    .services-title {
+        font-size: 2.5em;
+        padding-right: 1020px;
+        margin-top: 25px;
+        margin-bottom: 10px;
     }
     
-        .services-title {
-            font-size: 2.5em;
-            padding-right: 970px;
-            padding-left: 30px;
-            margin-top: 25px;
-            margin-bottom: 10px;
+        .user-box, .html-box, .css-box {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: row wrap;
+            flex-direction: row;
+            width: 80%;
         }
     
-    .contact {
-        
-    }
+                .services i {
+                    font-size: 5.5em;
+                    justify-content: center;
+                    align-content: center;
+                    width: 30%;
+
+                }
+    
+                .user-info, .html-info, .css-info {
+                    width: 100%;
+                    justify-content: center;
+                    align-content: center;
+                }
 }
 
 @media print,
