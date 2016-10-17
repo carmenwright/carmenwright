@@ -383,6 +383,116 @@ nav ul {
 
 @media (min-width: 940px) {
     /* Desktop styles here! */
+    body {
+        margin: 0;
+    }
+    
+    header {
+        height: 800px;
+    }
+    
+        h1 {
+            padding-left: 60px;
+            font-size: 5em;
+        }
+    
+        h2 {
+            padding-left: 60px;
+        }
+    
+        nav {
+            padding-top: 400px;
+            text-align: center;
+        }
+    
+            nav ul li {
+                display: inline-block;
+            }
+    
+            nav ul li a {
+                padding-right: 80px;
+                padding-left: 80px;
+                padding-top: 300px;
+
+                font-weight: 700;
+                font-size: 1.5em;
+            }
+        
+    .about-title {
+        font-size: 2.5em;
+        padding-right: 940px;
+        padding-left: 60px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .about-box {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+    
+        .headshot {
+            width: 70%;
+            padding-left: 100px;
+        }
+    
+        .about-info {
+            align-content: space-between;
+            text-align: left;
+            margin-right: 100px;
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+    
+    .case-studies {
+    }
+    
+        .case-studies-title {
+            font-size: 2.5em;
+            padding-right: 970px;
+            padding-left: 30px;
+            margin-top: 25px;
+            margin-bottom: 30px;
+        }
+    
+        .jubilee-site, .rogue-pickings-site, .unplugged-site {
+            width: 80%;
+            padding-left: 75px;
+        }
+    
+        .jubilee-box, .rogue-pickings-box, .unplugged-box  {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+            padding-bottom: 70px;
+        }
+    
+        .case-studies-info {
+            align-content: space-between;
+            text-align: left;
+            margin-right: 20px;
+            margin-top: 100px;
+        }
+    
+    .services {
+        
+    }
+    
+        .services-title {
+            font-size: 2.5em;
+            padding-right: 970px;
+            padding-left: 30px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+    
+    .contact {
+        
+    }
 }
 
 @media print,
